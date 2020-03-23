@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 300px;
+  padding: 20px 20px;
+}
+
+.form-url {
+  background-color: lightgray;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
