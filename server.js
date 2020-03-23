@@ -12,7 +12,7 @@ app.use('/public', express.static(__dirname + '/public'));
 app.get('/', (req,res) => res.sendFile(__dirname + '/views/index.html'));
 
 //Connect to MongoDB Server
-const mongoURI = 'mongodb+srv://dseng905:10801566@cluster0-jnimq.mongodb.net/test?retryWrites=true&w=majority';
+const mongoURI = 'ADD MONGODB URI HERE';
 mongoose.connect(mongoURI, {useNewUrlParser: true,useUnifiedTopology: true});
 
 //TODO: Define the middleware function for each POST and GET request
